@@ -19,19 +19,19 @@ class ChunkUploadServiceProvider extends ServiceProvider
     public function boot()
     {
         // get the schedule config
-        $schedule = AbstractConfig::config()->scheduleConfig();
+        $schedule_config = AbstractConfig::config()->scheduleConfig();
 
         // run only if schedule is enabled
-        if (Arr::get($schedule, "enabled", false) === true) {
+        if (Arr::get($schedule_config, "enabled", false) === true) {
 
             // wait until the app is fully booted
-            $this->app->booted(function () use ($schedule) {
+            $this->app->booted(function () use ($schedule_config) {
                 // get the sheduler
                 /** @var Schedule $schedule */
                 $schedule = $this->app->make(Schedule::class);
 
                 // register the clear chunks with custom schedule
-                $schedule->command('uploads:clear')->cron(Arr::get($schedule, "cron", "* * * * *"));
+                $schedule->command('uploads:clear')->cron(Arr::get($schedule_config, "cron", "* * * * *"));
             });
         }
     }
