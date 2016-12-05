@@ -7,7 +7,7 @@ use Roae\Laravel\ChunkUpload\Handler\AbstractHandler;
 use Roae\Laravel\ChunkUpload\Save\AbstractSave;
 use Roae\Laravel\ChunkUpload\Save\ChunkSave;
 use Roae\Laravel\ChunkUpload\Save\SingleSave;
-use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Roae\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 class FileReceiver

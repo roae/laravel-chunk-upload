@@ -4,7 +4,7 @@ namespace Roae\Laravel\ChunkUpload\Save;
 use Roae\Laravel\ChunkUpload\Config\AbstractConfig;
 use Roae\Laravel\ChunkUpload\Handler\AbstractHandler;
 use Symfony\Component\HttpFoundation\File\File;
-use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 /**
  * Class AbstractSave

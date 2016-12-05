@@ -3,7 +3,7 @@ namespace Roae\Laravel\ChunkUpload\Save;
 
 use Roae\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
 use Roae\Laravel\ChunkUpload\Handler\AbstractHandler;
-use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Roae\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 class ChunkSave extends AbstractSave

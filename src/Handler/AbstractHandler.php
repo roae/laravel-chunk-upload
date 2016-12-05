@@ -2,7 +2,7 @@
 namespace Roae\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
-use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Roae\Laravel\ChunkUpload\Config\AbstractConfig;
 use Roae\Laravel\ChunkUpload\Storage\ChunkStorage;
 use Session;
