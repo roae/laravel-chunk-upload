@@ -1,12 +1,12 @@
 <?php
-namespace Pion\Laravel\ChunkUpload;
+namespace Roae\Laravel\ChunkUpload;
 
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use Roae\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class Chunk
  *
- * @package Pion\Laravel\ChunkUpload
+ * @package Roae\Laravel\ChunkUpload
  */
 class ChunkFile
 {

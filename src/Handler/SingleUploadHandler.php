@@ -1,12 +1,12 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace Roae\Laravel\ChunkUpload\Handler;
 
 /**
  * Class SingleUploadHandler
  *
  * The dumm single upload handler as the default fallback
  *
- * @package Pion\Laravel\ChunkUpload\Handler
+ * @package Roae\Laravel\ChunkUpload\Handler
  */
 class SingleUploadHandler extends AbstractHandler
 {

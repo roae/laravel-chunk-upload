@@ -1,5 +1,5 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Exceptions;
+namespace Roae\Laravel\ChunkUpload\Exceptions;
 
 class ChunkSaveException extends \Exception
 {

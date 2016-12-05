@@ -1,9 +1,9 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace Roae\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
+use Roae\Laravel\ChunkUpload\Config\AbstractConfig;
 
 /**
  * Class ContentRangeUploadHandler
@@ -15,7 +15,7 @@ use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
  *   https://github.com/blueimp/jQuery-File-Upload
  *
  *
- * @package Pion\Laravel\ChunkUpload\Handler
+ * @package Roae\Laravel\ChunkUpload\Handler
  */
 class ContentRangeUploadHandler extends AbstractHandler
 {

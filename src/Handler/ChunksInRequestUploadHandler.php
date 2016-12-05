@@ -1,9 +1,9 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace Roae\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
+use Roae\Laravel\ChunkUpload\Config\AbstractConfig;
 
 /**
  * Class ChunksInRequestUploadHandler
@@ -12,7 +12,7 @@ use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
  * Works with:
  * - PUpload: https://github.com/moxiecode/plupload/
  *
- * @package Pion\Laravel\ChunkUpload\Handler
+ * @package Roae\Laravel\ChunkUpload\Handler
  */
 class ChunksInRequestUploadHandler extends AbstractHandler
 {

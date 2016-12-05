@@ -1,12 +1,12 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Config;
+namespace Roae\Laravel\ChunkUpload\Config;
 
 /**
  * Class FileConfig
  *
  * Enables loading a config settings from the Laravel Config facade.
  *
- * @package Pion\Laravel\ChunkUpload\Config
+ * @package Roae\Laravel\ChunkUpload\Config
  */
 class FileConfig extends AbstractConfig
 {

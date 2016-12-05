@@ -1,16 +1,16 @@
 <?php
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace Roae\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use Roae\Laravel\ChunkUpload\Config\AbstractConfig;
+use Roae\Laravel\ChunkUpload\Storage\ChunkStorage;
 use Session;
 
 /**
  * The handler that will detect if we can continue the chunked upload
  *
- * @package Pion\Laravel\ChunkUpload\Handler
+ * @package Roae\Laravel\ChunkUpload\Handler
  */
 abstract class AbstractHandler
 {

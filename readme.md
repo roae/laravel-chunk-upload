@@ -1,3 +1,7 @@
+### Clone pion/laravel-chunk-upload
+Support for laravel 5.1 added
+
+
 # Laravel chunked upload
 
 ## Instalation
@@ -5,13 +9,13 @@
 **Install via composer**
 
 ```
-composer require pion/laravel-chunk-upload
+composer require roae/laravel-chunk-upload
 ```
     
 **Add the service provider**
 
 ```php
-\Pion\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider::class
+\Roae\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider::class
 ```    
 
 ___Optional___
@@ -21,13 +25,13 @@ ___Optional___
 Run the publish command to copy the translations (Laravel 5.2 and above)
 
 ```
-php artisan vendor:publish --provider="Pion\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider"
+php artisan vendor:publish --provider="Roae\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider"
 ```
 
 Run the publish command to copy the translations (Laravel 5.1)
 
 ```
-php artisan publish --provider="Pion\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider"
+php artisan publish --provider="Roae\Laravel\ChunkUpload\Providers\ChunkUploadServiceProvider"
 ```
     
 ## Usage

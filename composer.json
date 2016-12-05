@@ -1,6 +1,6 @@
 {
-  "name": "pion/laravel-chunk-upload",
-  "description": "Service for chunked upload with several js providers",
+  "name": "roae/laravel-chunk-upload",
+  "description": "Service for chunked upload with several js providers forked Pion/laravel-chunk-upload",
   "require": {
     "laravel/framework": "5.*"
   },
@@ -8,14 +8,14 @@
   },
   "autoload": {
     "psr-4": {
-      "Pion\\Laravel\\ChunkUpload\\": "src/"
+      "Roae\\Laravel\\ChunkUpload\\": "src/"
     }
   },
   "license": "MIT",
   "authors": [
     {
-      "name": "Martin Kluska",
-      "email": "martin.kluska@imakers.cz"
+      "name": "Efrain Rochin",
+      "email": "erochin@grupoadhoc.mx"
     }
   ],
   "minimum-stability": "stable"
