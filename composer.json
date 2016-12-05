@@ -8,7 +8,7 @@
   },
   "autoload": {
     "psr-4": {
-  hunkUpload\\": "src/"
+      "Roae\\Laravel\\ChunkUpload\\": "src/"
     }
   },
   "license": "MIT",
